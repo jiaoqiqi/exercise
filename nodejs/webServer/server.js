@@ -8,10 +8,10 @@ http.createServer((req, res) => {
     fs.readFile(pathname.substr(1), (err, data) => {
         if (err) {
             console.log(err);
-            res.writeHead(404, {'Content-Type': 'text/html'});
+            res.writeHead(404, {'Content-Type': 'test/html'});
         }
         else {
-            res.writeHead(200, {'Content-Type': 'text/html'});
+            res.writeHead(200, {'Content-Type': 'test/html'});
             res.write(data.toString());
         }
         res.end()
