@@ -1,0 +1,13 @@
+(err) => {
+            if (err) {
+                console.log(err)
+            }
+            else {
+                response = {
+                    message: 'File uploaded successful',
+                    filename: req.files[0].originalname
+                }
+            }
+            console.log(response);
+            res.end(JSON.stringify(response));
+        }
