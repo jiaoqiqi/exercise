@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static('public'));
 
 app.get('/index.html', (req, res) => {
-    res.sendFile(__dirname + "/" + "index.htm" );
+    res.sendFile(__dirname + "/" + "index.html" );
 });
 
 app.get('/process_get', (req, res) => {
