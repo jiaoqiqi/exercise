@@ -8,7 +8,7 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extend: false}));
 app.use(multer({dest : '/tmp/'}).array('image'));
 
-app.get('/index.html', (req, res) => {
+app.get('/form.html', (req, res) => {
     res.sendFile(__dirname + "/" + "index.html");
 })
 
