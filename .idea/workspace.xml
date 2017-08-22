@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aeda61ac-e9dd-4914-8a2e-f7de2acd794c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modle.html" afterPath="$PROJECT_DIR$/modle.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,10 +70,10 @@
       <file leaf-file-name="modle.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modle.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="640">
+              <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
               <folding>
-                <element signature="e#685#692#1" expanded="true" />
+                <element signature="e#842#849#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -349,12 +350,13 @@
       <workItem from="1501638597516" duration="92000" />
       <workItem from="1502611879011" duration="1129000" />
       <workItem from="1502767857770" duration="38000" />
-      <workItem from="1503313329405" duration="133000" />
+      <workItem from="1503313329405" duration="177000" />
+      <workItem from="1503386977366" duration="339000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29715000" />
+    <option name="totallyTimeSpent" value="30098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="-6" width="1822" height="1086" extended-state="6" />
@@ -681,10 +683,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="640">
+          <caret line="29" column="6" lean-forward="true" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
           <folding>
-            <element signature="e#685#692#1" expanded="true" />
+            <element signature="e#842#849#1" expanded="true" />
           </folding>
         </state>
       </provider>
