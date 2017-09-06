@@ -2,3 +2,4 @@
 node_modules/
 nodejs/node-mysql/
 uploadPicture/upload/
+.idea
