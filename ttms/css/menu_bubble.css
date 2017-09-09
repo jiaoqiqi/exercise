@@ -7,17 +7,14 @@ body,
 	height: 100%;
 }
 
-.container {
-	/*background: #373a47;*/
-}
-
 .menu-wrap a {
-	color: #b8b7ad;
+	color: #dcb879;
 }
 
 .menu-wrap a:hover,
 .menu-wrap a:focus {
-	color: #c94e50;
+	/*color: #c94e50;*/
+	color: #006284;
 }
 
 .content-wrap {
@@ -29,7 +26,7 @@ body,
 
 .content {
 	position: relative;
-	background: #b4bad2;
+	/*background: #b4bad2;   	!*导航顶部颜色条*!*/
 }
 
 .content::before {
@@ -39,7 +36,7 @@ body,
 	z-index: 10;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,0.3);
+	/*background: rgba(0,0,0,0.3);*/  	/*点出导航栏之后顶部导航条颜色*/
 	content: '';
 	opacity: 0;
 	-webkit-transition: opacity 0.4s, -webkit-transform 0s 0.4s;
@@ -117,7 +114,7 @@ body,
 .menu-wrap {
 	position: absolute;
 	z-index: 1001;
-	width: 280px;
+	width: 20%;  /*弹出的导航条的宽度*/
 	height: 100%;
 	font-size: 1.15em;
 	-webkit-transform: translate3d(-280px,0,0);
@@ -151,7 +148,7 @@ body,
 .icon-list i {
 	font-size: 1.5em;
 	vertical-align: middle;
-	color: #282a35;
+	/*color: #282a35;*/
 }
 
 .icon-list a span {
@@ -168,7 +165,7 @@ body,
 	height: 100%;
 	top: 0;
 	right: 0;
-	fill: #373a47;
+	fill: #6699a1;  /*导航栏颜色*/
 }
 
 /* Shown menu */
