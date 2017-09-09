@@ -1,0 +1,73 @@
+.back{
+    background-image: url("../images/1.jpg");
+    background-position: center;
+    background-attachment:fixed;  /*背景图不跟着文字移动*/
+    background-size: cover;  /*图片大小平铺*/
+}
+
+.titlePage {
+    margin-bottom: 30px;
+}
+
+.submitButton {
+    margin-top: 30px;
+}
+
+.logPage {
+    margin-top: 15%;
+    height: 25%;
+    width: 30%;
+    margin-left: 60%;
+}
+
+.account{
+    margin-top: 20px;
+    width: 250px;
+}
+
+.logButton {
+    margin-top: 30px;
+    width: 50px;
+    margin-bottom: 195px;
+}
+
+
+.logColor{
+    height: 600px;
+
+}
+
+table{
+    margin-left: 10%;
+}
+
+.col-th{
+    width: 200px;
+}
+
+.col{
+    width:200px;
+}
+
+.btn{
+    height: 30px;
+    margin-top: 10px;
+}
+
+.addButton{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 90%;
+}
+
+.modal-body{
+    left: 150px;
+}
+
+.margin{
+    margin-top: 10px;
+}
+
+
+
+
