@@ -114,7 +114,7 @@ body,
 .menu-wrap {
 	position: absolute;
 	z-index: 1001;
-	width: 20%;  /*弹出的导航条的宽度*/
+	width: 23%;  /*弹出的导航条的宽度*/
 	height: 100%;
 	font-size: 1.15em;
 	-webkit-transform: translate3d(-280px,0,0);
