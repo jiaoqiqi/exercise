@@ -1,0 +1,6 @@
+.back{
+    background-image: url("../images/7.jpg");
+    background-position: center;
+    background-attachment:fixed;  /*背景图不跟着文字移动*/
+    background-size: cover;  /*图片大小平铺*/
+}

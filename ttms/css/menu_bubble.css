@@ -8,13 +8,12 @@ body,
 }
 
 .menu-wrap a {
-	color: #dcb879;
+	color: #64363C;
 }
 
 .menu-wrap a:hover,
 .menu-wrap a:focus {
-	/*color: #c94e50;*/
-	color: #006284;
+	color: #d05a6e;
 }
 
 .content-wrap {
@@ -114,7 +113,7 @@ body,
 .menu-wrap {
 	position: absolute;
 	z-index: 1001;
-	width: 23%;  /*弹出的导航条的宽度*/
+	width: 20%;  /*弹出的导航条的宽度*/
 	height: 100%;
 	font-size: 1.15em;
 	-webkit-transform: translate3d(-280px,0,0);
@@ -165,7 +164,9 @@ body,
 	height: 100%;
 	top: 0;
 	right: 0;
-	fill: #6699a1;  /*导航栏颜色*/
+	/*fill: #D7C4BB;  !*导航栏颜色*!*/
+	fill: #dac9a6  /*导航栏颜色*/
+
 }
 
 /* Shown menu */
