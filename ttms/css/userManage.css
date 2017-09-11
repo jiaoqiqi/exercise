@@ -1,6 +1,48 @@
-.back{
+.back {
     background-image: url("../images/7.jpg");
     background-position: center;
-    background-attachment:fixed;  /*背景图不跟着文字移动*/
-    background-size: cover;  /*图片大小平铺*/
+    background-attachment: fixed; /*背景图不跟着文字移动*/
+    background-size: cover; /*图片大小平铺*/
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.addButton {
+    float: right;
+    margin-right: 20%;
+    margin-top: 1%;
+}
+
+.text {
+    text-align: center;
+}
+
+.kuang {
+    /*background:transparent;*/
+    border: 1px solid black;
+    border-radius: 25px;
+    outline: medium /*输入时去掉外边框的方法*/
+}
+
+.duang {
+    background-color: burlywood;
+}
+
+.deleteButton {
+    color: red;
+    border: hidden;
+    background-color: inherit;
+    display: inline;
+    margin-left: 10%;
+}
+
+.wrap:hover button {
+    display: block;
+}
+
+.wrap button {
+    display: none;
 }

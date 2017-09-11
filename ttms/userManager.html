@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/demo.css"/>
     <link rel="stylesheet" type="text/css" href="css/menu_bubble.css"/>
     <link rel="stylesheet" href="css/userManage.css">
+    <link rel="stylesheet" href="css/buttons.css">
 
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
@@ -49,7 +50,18 @@
     </div>
 
 
-    <div >
+    <div>
+        <div>
+            <h2>用户信息管理</h2>
+        </div>
+
+        <div>
+            <button class="btn btn-primary addButton"
+                    data-toggle="modal" data-target="#myModal">
+                添加用户
+            </button>
+        </div>
+
         <div class="container">
             <table class="table">
 
@@ -64,38 +76,152 @@
                 </thead>
 
                 <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>金发女方</td>
-                    <td>女</td>
-                    <td>员工</td>
-                    <td>年罚款那都是</td>
-                </tr>
-                <tr>
+
+                <!--<div class="wrap">-->
+                    <tr class="wrap">
+                        <td>1</td>
+                        <td>金发女方</td>
+                        <td>女</td>
+                        <td>员工</td>
+                        <td>年罚款那都是</td>
+                        <td>
+                            <button class="glyphicon glyphicon-remove deleteButton"></button>
+                        </td>
+                        <td>
+                            <button class="btn btn-info"
+                                    data-toggle="modal" data-target="#myModal">修改</button>
+                        </td>
+                    </tr>
+                <!--</div>-->
+
+                <tr class="wrap">
                     <td>2</td>
                     <td>那就是</td>
                     <td>女</td>
                     <td>员工</td>
                     <td>没看</td>
+                    <td>
+                        <button class="glyphicon glyphicon-remove deleteButton"></button>
+                    </td>
+                    <td>
+                        <button class="btn btn-info"
+                                data-toggle="modal" data-target="#myModal">修改</button>
+                    </td>
                 </tr>
 
-                <tr>
+                <tr class="wrap">
                     <td>3</td>
                     <td>看电视呢</td>
                     <td>男</td>
                     <td>经理</td>
                     <td>肯定撒娇</td>
+                    <td>
+                        <button class="glyphicon glyphicon-remove deleteButton"></button>
+                    </td>
+                    <td>
+                        <button class="btn btn-info"
+                                data-toggle="modal" data-target="#myModal">修改</button>
+                    </td>
                 </tr>
 
-                <tr>
+                <tr class="wrap">
                     <td>4</td>
                     <td>赶快</td>
                     <td>女</td>
                     <td>系统管理员</td>
                     <td>了开发的时间</td>
+                    <td>
+                        <button class="glyphicon glyphicon-remove deleteButton"></button>
+                    </td>
+                    <td>
+                        <button class="btn btn-info"
+                                data-toggle="modal" data-target="#myModal">修改</button>
+                    </td>
                 </tr>
                 </tbody>
             </table>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="Modal" tabIndex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content daung">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">&times;
+                </button>
+                <h4 class="modal-title text" id="ModalLabel">添加用户</h4>
+            </div>
+
+            <div class="modal-body text">
+                姓名：<input class="kuang" type="text" ref="name"/>
+            </div>
+
+            <div class="modal-body text">
+                性别：<input class="kuang" type="text" ref="sex"/>
+            </div>
+
+            <div class="modal-body text">
+                角色：<input class="kuang" type="text" ref="role"/>
+            </div>
+
+            <div class="modal-body text">
+                备注：<input class="kuang" type="text" ref="note"/>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary">
+                    确认添加
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="myModal" tabIndex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content daung">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">&times;
+                </button>
+                <h4 class="modal-title text" id="myModalLabel">添加用户</h4>
+            </div>
+
+            <div class="modal-body text">
+                姓名：<input class="kuang" type="text" ref="name"/>
+            </div>
+
+            <div class="modal-body text">
+                性别：<input class="kuang" type="text" ref="sex"/>
+            </div>
+
+            <div class="modal-body text">
+                角色：<input class="kuang" type="text" ref="role"/>
+            </div>
+
+            <div class="modal-body text">
+                备注：<input class="kuang" type="text" ref="note"/>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary">
+                    确认修改
+                </button>
+            </div>
+
         </div>
     </div>
 </div>
