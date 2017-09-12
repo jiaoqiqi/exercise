@@ -1,19 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <title>演出厅管理</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>侧边栏导航-Bubble</title>
+    <meta name="description"
+          content="Modern effects and styles for off-canvas navigation with CSS transitions and SVG animations using Snap.svg"/>
+    <meta name="keywords"
+          content="sidebar, off-canvas, menu, navigation, effect, inspiration, css transition, SVG, morphing, animation"/>
+    <meta name="author" content="Codrops"/>
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="css/demo.css"/>
     <link rel="stylesheet" type="text/css" href="css/menu_bubble.css"/>
+    <link rel="stylesheet" href="css/userManage.css">
+    <link rel="stylesheet" href="css/buttons.css">
+
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="js/snap.svg-min.js"></script>
 </head>
-<body>
-<div >
+<body class="back">
+<div>
     <div class="menu-wrap">
         <nav class="menu">
             <div class="icon-list">
@@ -36,9 +46,200 @@
     <button class="menu-button" id="open-button">Open Menu</button>
     <div class="content">
         <header class="codrops-header">
+            <div class="userInfo"><img src="./images/user.png" alt="">欢迎您</div>
         </header>
+
+
+    </div>
+
+
+    <div>
+        <div>
+            <h2>演出厅信息管理</h2>
+        </div>
+
+        <div>
+            <button class="btn btn-primary addButton"
+                    data-toggle="modal" data-target="#myModal">
+                添加演出厅
+            </button>
+        </div>
+
+        <div class="container">
+            <table class="table">
+
+                <thead>
+                <tr>
+                    <th>演出厅编号</th>
+                    <th>演出厅名称</th>
+                    <th>演出厅行数</th>
+                    <th>演出厅列数</th>
+                    <th>演出厅描述</th>
+                </tr>
+                </thead>
+
+                <tbody>
+
+                <tr class="wrap">
+                    <td>1</td>
+                    <td>1号厅</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>年罚款那都是</td>
+                    <td>
+                        <button class="glyphicon glyphicon-remove deleteButton"></button>
+                    </td>
+                    <td>
+                        <button class="btn btn-info"
+                                data-toggle="modal" data-target="#myModal">修改</button>
+                    </td>
+                </tr>
+                <!--</div>-->
+
+                <tr class="wrap">
+                    <td>2</td>
+                    <td>2号演出厅</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>没看</td>
+                    <td>
+                        <button class="glyphicon glyphicon-remove deleteButton"></button>
+                    </td>
+                    <td>
+                        <button class="btn btn-info"
+                                data-toggle="modal" data-target="#myModal">修改</button>
+                    </td>
+                </tr>
+
+                <tr class="wrap">
+                    <td>3</td>
+                    <td>3号演出厅</td>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>肯定撒娇</td>
+                    <td>
+                        <button class="glyphicon glyphicon-remove deleteButton"></button>
+                    </td>
+                    <td>
+                        <button class="btn btn-info"
+                                data-toggle="modal" data-target="#myModal">修改</button>
+                    </td>
+                </tr>
+
+                <tr class="wrap">
+                    <td>4</td>
+                    <td>4号演出厅</td>
+                    <td>30</td>
+                    <td>30</td>
+                    <td>了开发的时间</td>
+                    <td>
+                        <button class="glyphicon glyphicon-remove deleteButton"></button>
+                    </td>
+                    <td>
+                        <button class="btn btn-info"
+                                data-toggle="modal" data-target="#myModal">修改</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="page">
+            <ul class="pagination">
+                <li><a href="#">&laquo;</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+        </div>
     </div>
 </div>
+
+
+<div class="modal fade" id="Modal" tabIndex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content daung">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">&times;
+                </button>
+                <h4 class="modal-title text" id="ModalLabel">添加用户</h4>
+            </div>
+
+            <div class="modal-body text">
+                演出厅名称：<input class="kuang" type="text" ref="name"/>
+            </div>
+
+            <div class="modal-body text">
+                演出厅行数：<input class="kuang" type="text" ref="sex"/>
+            </div>
+
+            <div class="modal-body text">
+                演出厅列数：<input class="kuang" type="text" ref="role"/>
+            </div>
+
+            <div class="modal-body text">
+                演出厅备注：<input class="kuang" type="text" ref="note"/>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary">
+                    确认添加
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="myModal" tabIndex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content daung">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">&times;
+                </button>
+                <h4 class="modal-title text" id="myModalLabel">添加用户</h4>
+            </div>
+
+            <div class="modal-body text">
+                演出厅名称：<input class="kuang" type="text" ref="name"/>
+            </div>
+
+            <div class="modal-body text">
+                演出厅行数：<input class="kuang" type="text" ref="sex"/>
+            </div>
+
+            <div class="modal-body text">
+                演出厅列数：<input class="kuang" type="text" ref="role"/>
+            </div>
+
+            <div class="modal-body text">
+                演出厅备注：<input class="kuang" type="text" ref="note"/>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary">
+                    确认修改
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
 <script src="js/classie.js"></script>
 <script src="js/main4.js"></script>
 </body>
