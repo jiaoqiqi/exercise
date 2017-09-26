@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+.note-body{height:100%}
+.note-list{ border-right:1px solid #c8ccd5;*zoom:1; width:220px; height:100%; overflow:auto;position: absolute;top:0;_top: -5px;left: 0px;}
+.note-list::-webkit-scrollbar {/*滚动条宽度*/
+    width:8px; background:#f5f6f9;
+}
+.note-list::-webkit-scrollbar-thumb {/*滚动条的滑块*/
+    background:#d8dce5; border:1px solid #d8dce5; border-width:0 1px;
+}
+.note-list:after{content:""; display:table; clear:both}
+.note-list dl{margin:0; padding:0;}
+.note-list dt{height:25px; margin:0; padding:0 0 0 10px; border-bottom:1px solid #e0e4ed; font:12px/25px "microsoft yahei"; color:#636872;}
+.note-list dd{ margin:1px 2px 0 1px; padding:0 0 1px; border-bottom:1px solid #eaedf4; position:relative}
+.note-list-item{ padding:8px 0 8px 8px; border:1px solid #fff; height:55px;}
+.note-list-item:focus{border-color:#a7d2ff;background:#d5eaff; outline:none;}
+.note-list-item:hover, dd.ui-selected{border-color:#d5eaff;background:#eaf5ff;}
+.note-list-item em{ display:block; font-style:normal; font:12px/19px "microsoft yahei"; color:#020202;word-break: break-all; height: 35px; overflow: hidden}
+.note-list-item p{ margin:4px 0 0; padding:0;color:#868686; font:12px/16px "Tahoma";}
+.note-list-item-has-img img{ width:62px; height:62px; border:1px solid #cfcfcf; float:right; margin:-4px 7px 0; position:relative}
+.note-list-item-has-img em{width: 110px; width: 110px\9;}
+.note-list-item-new, .note-list-item-new em, .note-list-item-new p{color: #868686;}
+.icon-update-done,.icon-update-ing{width:17px; height:17px; position:absolute; top:0px; left:0;}
+.icon-update-done{ background:url(/vipstyle/nr/box/img/note/done.png) no-repeat;}
+.icon-update-ing{ background:url(/vipstyle/nr/box/img/note/update.png) no-repeat;}
+.note-editor{margin-left:221px;position: relative;height: 100%;}
+.note-remark-textarea{ display:block; width:325px; height:80px; border:1px solid #d8dce5; font:12px/21px "microsoft yahei"; padding:7px 13px;}
+.note-load-more{text-align: center;margin: 32px 83px 16px}
+/*appbox*/
+.app-appbox .note-list{width: 195px;}
+.app-appbox .note-editor{margin-left: 196px;}
+.app-appbox .note-list-item-has-img em{width: 95px;}
+.app-appbox .note-list-item-has-img img{width: 54px; height: 54px;}
+.app-appbox .note-remark-textarea{width:300px;}
+/*弹窗*/
+.full-pop-content .mod-note {
+    position: relative;
+    padding: 40px 24px 46px 32px;
+    height: 36px;
+}
+.full-pop-content .mod-note .header {
+    position: relative;
+    padding-left: 44px;
+    padding-top: 6px;
+    margin-top: 32px;
+    width: 143px;
+    margin: 0 auto;
+}
+.full-pop-content .mod-note-loading .ico {
+    background: url(/vipstyle/nr/box/img/loading-tip.gif) no-repeat 0 0;
+    top: 3px;
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 0px;
+    _left: -44px;
+}
+.full-pop-content .mod-note .title {
+    color: #020202;
+    font-size: 16px;
+    font-weight: normal;
+}/*  |xGv00|188f2e4a482235d49cba36d572600b75 */
