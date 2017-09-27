@@ -15,7 +15,7 @@
             var emp_name=document.myform.emp_name;
             if(!reg.test(emp_name.value))
             {
-                document.getElementById("emp_name_tip").innerHTML="<img src='./images/error.png'>请输入真实姓名,10字以内中文!";
+                document.getElementById("emp_name_tip").innerHTML="<img src='./images/error.png'>请输入10字以内中文!";
                 emp_name.focus();
                 return false;
             }
@@ -31,7 +31,7 @@
             var emp_tel_num=document.myform.emp_tel_num;
             if(!reg.test(emp_tel_num.value))
             {
-                document.getElementById("emp_tel_num_tip").innerHTML="<img src='./images/error.png'>请输入11位正确手机号码!";
+                document.getElementById("emp_tel_num_tip").innerHTML="<img src='./images/error.png'>请输入11位手机号码!";
                 emp_tel_num.focus();
                 return false;
             }
@@ -85,54 +85,50 @@
 <body class="back">
 <div class="container-fluid back">
 
-    <div class="col-md-5 col-md-offset-7 logPage " >
+    <div class="col-md-5 col-md-offset- page  logPage" >
         <h2>注 册</h2>
         <hr/>
         <form name="myform" class="form-horizontal" role="form" action="" method="post">
 
             <div class="form-group">
-                <label for="emp_name" class="col-sm-2 control-label">姓名</label>
+                <label for="emp_name" class="col-sm-3 control-label">姓名</label>
                 <div class="col-sm-5">
                     <input type="text" class="form-control" id="emp_name" name="emp_name" onblur="checkEmpName()">
                 </div>
-                <div class="col-sm-5">
-                    <label id="emp_name_tip" class="control-label" style="color:red"></label>
-                </div>
+                <p id="emp_name_tip" class="control-label" style="color:red"></p>
+
             </div>
 
             <div class="form-group">
-                <label for="emp_tel_num" class="col-sm-2 control-label">电话</label>
+                <label for="emp_tel_num" class="col-sm-3 control-label">电话</label>
                 <div class="col-sm-5">
                     <input type="tel" class="form-control" id="emp_tel_num" name="emp_tel_num" onblur="checkEmpTelNum()">
                 </div>
-                <div class="col-sm-5">
-                    <label id="emp_tel_num_tip" class="control-label" style="color:red"></label>
-                </div>
+                <p id="emp_tel_num_tip" class="control-label" style="color:red"></p>
+
             </div>
 
             <div class="form-group">
-                <label for="emp_addr" class="col-sm-2 control-label">地址</label>
+                <label for="emp_addr" class="col-sm-3 control-label">地址</label>
                 <div class="col-sm-5">
                     <input type="text" class="form-control" id="emp_addr" name="emp_addr" onblur="checkEmpAddr()">
                 </div>
-                <div class="col-sm-5">
-                    <label id="emp_addr_tip" class="control-label" style="color:red"></label>
-                </div>
+                <p id="emp_addr_tip" class="control-label" style="color:red"></p>
+
             </div>
 
             <div class="form-group">
-                <label for="emp_email" class="col-sm-2 control-label">邮箱</label>
+                <label for="emp_email" class="col-sm-3 control-label">邮箱</label>
                 <div class="col-sm-5">
                     <input type="email" class="form-control" id="emp_email" name="emp_email" onblur="checkEmpEmail()">
                 </div>
-                <div class="col-sm-5">
-                    <label id="emp_email_tip" class="control-label" style="color:red"></label>
-                </div>
+                <p id="emp_email_tip" class="control-label" style="color:red"></p>
+
             </div>
 
 
             <div class="form-group">
-                <label for="emp_email" class="col-sm-2 control-label">密码</label>
+                <label for="emp_email" class="col-sm-3 control-label">密码</label>
                 <div class="col-sm-5">
                     <input type="password" class="form-control" id="password">
                 </div>
@@ -140,7 +136,7 @@
             </div>
 
             <div class="form-group">
-                <label for="emp_email" class="col-sm-2 control-label">确认密码</label>
+                <label for="emp_email" class="col-sm-3 control-label">确认密码</label>
                 <div class="col-sm-5">
                     <input type="password" class="form-control" id="confirmPassword">
                 </div>

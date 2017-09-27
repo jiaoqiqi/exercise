@@ -21,6 +21,11 @@
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="js/snap.svg-min.js"></script>
+    <script>
+        function deleteUser(){
+            alert("确定删除？")
+        }
+    </script>
 </head>
 <body class="back">
 <div>
@@ -88,11 +93,11 @@
                         <td>员工</td>
                         <td>年罚款那都是</td>
                         <td>
-                            <button class="glyphicon glyphicon-remove deleteButton"></button>
+                            <button class="glyphicon glyphicon-remove deleteButton" onclick="deleteUser()" ></button>
                         </td>
                         <td>
                             <button class="btn btn-info"
-                                    data-toggle="modal" data-target="#myModal">修改</button>
+                                    data-toggle="modal" data-target="#myModal" }>修改</button>
                         </td>
                     </tr>
                 <!--</div>-->
@@ -104,7 +109,7 @@
                     <td>员工</td>
                     <td>没看</td>
                     <td>
-                        <button class="glyphicon glyphicon-remove deleteButton"></button>
+                        <button class="glyphicon glyphicon-remove deleteButton" onclick="deleteUser()" ></button>
                     </td>
                     <td>
                         <button class="btn btn-info"
@@ -119,7 +124,7 @@
                     <td>经理</td>
                     <td>肯定撒娇</td>
                     <td>
-                        <button class="glyphicon glyphicon-remove deleteButton"></button>
+                        <button class="glyphicon glyphicon-remove deleteButton" onclick="deleteUser()" ></button>
                     </td>
                     <td>
                         <button class="btn btn-info"
@@ -134,7 +139,7 @@
                     <td>系统管理员</td>
                     <td>了开发的时间</td>
                     <td>
-                        <button class="glyphicon glyphicon-remove deleteButton"></button>
+                        <button class="glyphicon glyphicon-remove deleteButton" onclick="deleteUser()" ></button>
                     </td>
                     <td>
                         <button class="btn btn-info"
@@ -208,7 +213,7 @@
                 <button type="button" class="close" data-dismiss="modal"
                         aria-hidden="true">&times;
                 </button>
-                <h4 class="modal-title text" id="myModalLabel">添加用户</h4>
+                <h4 class="modal-title text" id="myModalLabel">修改用户</h4>
             </div>
 
             <div class="modal-body text">

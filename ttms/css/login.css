@@ -4,6 +4,9 @@
     background-attachment:fixed;  /*背景图不跟着文字移动*/
     background-size: cover;  /*图片大小平铺*/
 }
+.page{
+    /*float: left;/*/
+}
 
 .titlePage {
     margin-bottom: 30px;
@@ -16,8 +19,9 @@
 .logPage {
     margin-top: 15%;
     height: 25%;
-    width: 30%;
-    margin-left: 60%;
+    width: 40%;
+    /*float: left;*/
+    margin-left: 50%;
 }
 
 .account{
