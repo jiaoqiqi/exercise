@@ -1,5 +1,6 @@
 window.onload = function() {
-    var list = document.getElementById('list');var prev = document.getElementById('prev');
+    var list = document.getElementById('list');
+    var prev = document.getElementById('prev');
     var next = document.getElementById('next');
 
     function animate(offset) {
@@ -7,6 +8,7 @@ window.onload = function() {
         //且style.left获取的是字符串，需要用parseInt()取整转化为数字。
         var newLeft = parseInt(list.style.left) + offset;
         list.style.left = newLeft + 'px';
+        console.log(list.style.left)
     }
 
     prev.onclick = function() {

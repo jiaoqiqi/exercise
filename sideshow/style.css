@@ -13,8 +13,8 @@ body {
 #list {
     position: absolute;
     z-index: 1;
-    /*width: 4200px;*/
-    /*height: 400px;*/
+    width: 4200px;
+    height: 400px;
 }
 
 #list img {
