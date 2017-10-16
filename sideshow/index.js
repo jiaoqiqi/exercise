@@ -31,10 +31,17 @@ window.onload = function () {
 
     var timer;
 
+    // function play() {
+    //     timer = setInterval(function () {
+    //         prev.onclick()
+    //     }, 2000)
+    // }
+
     function play() {
+        //将轮播图换成向右切换图片
         timer = setInterval(function () {
-            prev.onclick()
-        }, 1500)
+            next.onclick();
+        }, 2000)
     }
 
     play();
@@ -73,19 +80,34 @@ window.onload = function () {
         animate(-600);
     }
 
-    for (var i = 0; i < buttons.length; i++) {
-        buttons[i].onclick = function () {
-            // 在浏览器的控制台打印一下，看看结果
-            // console.log(i);
+    // for (var i = 0; i < buttons.length; i++) {
+    //     buttons[i].onclick = function () {
+    //         // 在浏览器的控制台打印一下，看看结果
+    //         // console.log(i);  一直输出5  因为没有闭包啊
+    //
+    //         /* 偏移量获取：这里获得鼠标移动到小圆点的位置，用this把index绑定到对象buttons[i]上*/
+    //         /* 由于这里的index是自定义属性，需要用到getAttribute()这个DOM2级方法，去获取自定义index的属性*/
+    //         var clickIndex = parseInt(this.getAttribute('index'));
+    //         var offset = 600 * (index - clickIndex);
+    //         animate(offset); //存放鼠标点击后的位置，用于小圆点的正常显示
+    //         index = clickIndex;
+    //         buttonsShow();
+    //     }
+    // }
 
-            /* 偏移量获取：这里获得鼠标移动到小圆点的位置，用this把index绑定到对象buttons[i]上*/
-            /* 由于这里的index是自定义属性，需要用到getAttribute()这个DOM2级方法，去获取自定义index的属性*/
-            var clickIndex = parseInt(this.getAttribute('index'));
-            var offset = 600 * (index - clickIndex);
-            animate(offset); //存放鼠标点击后的位置，用于小圆点的正常显示
-            index = clickIndex;
-            buttonsShow();
-        }
+    for (var i = 0; i < buttons.length; i++) {
+        // 这里使用的是立即执行函数，
+        (function(i) {
+            buttons[i].onclick = function() {
+                console.log(i)
+                var clickIndex = parseInt(this.getAttribute('index'));
+                var offset = 600 * (index - clickIndex);
+                animate(offset);
+                index = clickIndex;
+                buttonsShow();
+            }
+        })(i)
     }
+
 }
 

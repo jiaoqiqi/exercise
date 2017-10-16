@@ -85,8 +85,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sideshow/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="712">
+              <caret line="101" column="29" lean-forward="false" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -284,18 +284,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ttms" />
-      <recent name="$PROJECT_DIR$/nodejs/express" />
-      <recent name="$PROJECT_DIR$/nodejs/express-get" />
-      <recent name="$PROJECT_DIR$/nodejs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lunbotu/images" />
       <recent name="$PROJECT_DIR$/ttms/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ttms/css" />
       <recent name="$PROJECT_DIR$/backPicture" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ttms" />
+      <recent name="$PROJECT_DIR$/nodejs/express" />
+      <recent name="$PROJECT_DIR$/nodejs/express-get" />
+      <recent name="$PROJECT_DIR$/nodejs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -425,12 +425,12 @@
       <workItem from="1506490652305" duration="3367000" />
       <workItem from="1507959658601" duration="681000" />
       <workItem from="1508139748406" duration="2307000" />
-      <workItem from="1508155251138" duration="5075000" />
+      <workItem from="1508155251138" duration="5556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89190000" />
+    <option name="totallyTimeSpent" value="89671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="-6" width="1824" height="1080" extended-state="6" />
@@ -764,8 +764,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sideshow/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="712">
+          <caret line="101" column="29" lean-forward="false" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
           <folding />
         </state>
       </provider>
