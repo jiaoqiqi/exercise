@@ -1,0 +1,80 @@
+body {
+    padding: 20px;
+}
+
+#container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 3px solid #333;
+    overflow: hidden;  /*overflow:hidden;只显示窗口的一张图片，把左右两边的都隐藏起来。*/
+}
+
+#list {
+    position: absolute;
+    z-index: 1;
+    /*width: 4200px;*/
+    /*height: 400px;*/
+}
+
+#list img {
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+
+#buttons {  /*底部的小点点的位置*/
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+    z-index: 2; /*buttons中每个span所在层置顶，将其设置为最顶端*/
+    height: 10px;
+    width: 100px;
+}
+
+#buttons span {
+    float: left;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px; /*底部的小点点的大小*/
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: #333; /*底部的小点点是圆的*/
+    cursor: pointer;  /*规定要显示的光标的类型（形状）  这是小手指*/
+}
+
+#buttons .on {
+    background: red;
+}
+
+.arrow {
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+    display: none;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+    background-color: RGBA(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.arrow:hover {
+    background-color: RGBA(0, 0, 0, .7);
+}
+
+#container:hover .arrow {
+    display: block;
+}
+
+#prev {
+    left: 20px;
+}
+
+#next {
+    right: 20px;
+}
