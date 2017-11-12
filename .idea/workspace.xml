@@ -50,11 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="box.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="box.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/box.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="544">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posion.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/posion.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -65,16 +75,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
               <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameOfLife.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameOfLife/src/GameOfLife.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2592">
-              <caret line="81" column="5" lean-forward="false" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -137,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/nodejs/express-post-file/server.js" />
         <option value="$PROJECT_DIR$/nodejs/express-post-file/index.html" />
         <option value="$PROJECT_DIR$/nodejs/express-cookie.js" />
         <option value="$PROJECT_DIR$/nodejs/restfulAPI/users.json" />
@@ -188,6 +187,7 @@
         <option value="$PROJECT_DIR$/codeRetreat/spec/test-spec.js" />
         <option value="$PROJECT_DIR$/css/margin.html" />
         <option value="$PROJECT_DIR$/css/box.html" />
+        <option value="$PROJECT_DIR$/css/posion.html" />
       </list>
     </option>
   </component>
@@ -426,12 +426,12 @@
       <workItem from="1509443625006" duration="3570000" />
       <workItem from="1509855979819" duration="1797000" />
       <workItem from="1510407362716" duration="636000" />
-      <workItem from="1510469297252" duration="1580000" />
+      <workItem from="1510469297252" duration="2880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101347000" />
+    <option name="totallyTimeSpent" value="102647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="-6" width="1822" height="1086" extended-state="6" />
@@ -443,7 +443,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713348" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32713348" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -468,7 +468,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/b.css" />
     <entry file="file://$PROJECT_DIR$/tryHover/hover.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
@@ -781,8 +780,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/box.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="544">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/posion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
