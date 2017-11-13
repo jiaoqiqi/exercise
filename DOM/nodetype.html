@@ -44,6 +44,9 @@
         var anotherNode = document.createTextNode("world");
         element.appendChild(anotherNode)
         document.body.appendChild(element)
+
+        element.normalize();
+        console.log(element.childNodes.length)
     </script>
 
 
