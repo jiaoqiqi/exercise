@@ -51,6 +51,20 @@
         console.log(element.childNodes.length)  //1
     </script>
 
+    <!--给ul添加元素-->
+    <ul id="mylist"></ul>
+    <script>
+        var fragment = document.createDocumentFragment();
+        var ul = document.getElementById("mylist");
+        var li = null;
+        for (var i = 0; i < 3; i++) {
+            li=document.createElement("li");
+            li.appendChild(document.createTextNode("Item" + (i+1)));
+            fragment.appendChild(li);
+
+        }
+        ul.appendChild(fragment);
+    </script>
 
     <p>1232435</p>
     <p>1232435</p>
