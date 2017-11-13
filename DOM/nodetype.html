@@ -16,13 +16,13 @@
 </head>
 <body>
 <div name="12" id="mydiv" class="sty">
+
     <script>
         var node = document.getElementsByName("12");
         console.log(node.length)
         console.log(node)
-    </script>
 
-    <script>
+        //元素的属性操作
         var div = document.getElementById("mydiv");
         console.log(div.tagName)
         console.log(div.nodeName)
@@ -30,12 +30,17 @@
         console.log(div.className)
 
         console.log(div.getAttribute("id"))
-    </script>
 
-    <script>
+        //页面新增节点 并改变style
         var divnew = document.createElement("div");
         document.body.appendChild(divnew);
         div.className="divnew"
+
+        //给页面新增一个文本节点
+        var element = document.createElement("div");
+        var textNode = document.createTextNode("hello");
+        element.appendChild(textNode);
+        document.body.appendChild(element)
     </script>
 
 
