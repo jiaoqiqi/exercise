@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+    <style>
+        .sty {
+            background-color: #00CCFF;
+        }
+        .divnew{
+            background-color: pink;
+        }
+    </style>
+
+</head>
+<body>
+<div name="12" id="mydiv" class="sty">
+    <script>
+        var node = document.getElementsByName("12");
+        console.log(node.length)
+        console.log(node)
+    </script>
+
+    <script>
+        var div = document.getElementById("mydiv");
+        console.log(div.tagName)
+        console.log(div.nodeName)
+        console.log(div.id)
+        console.log(div.className)
+
+        console.log(div.getAttribute("id"))
+    </script>
+
+    <script>
+        var divnew = document.createElement("div");
+        document.body.appendChild(divnew);
+        div.className="divnew"
+    </script>
+
+
+    <p>1232435</p>
+    <p>1232435</p>
+    <script>document.write("<strong>" + 678 + "</strong>")</script>
+</div>
+</body>
+</html>
