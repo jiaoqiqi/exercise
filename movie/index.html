@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        td{
+            width:200px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+
+        table, td, th {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        影院管理系统
+                    </a>
+                </li>
+                <li>
+                    <a onclick="jumptoemp()">员工管理</a>
+                </li>
+                <li>
+                    <a onclick="jumpToHall()">影厅管理</a>
+                </li>
+                <li>
+                    <a onclick="jumpToSite()">座位管理</a>
+                </li>
+                <li>
+                    <a onclick="jumpToLogin()">登录用户管理</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>
+            </div>
+        </div>
+
+
+        <div id="emp" style="display: none;">
+            <div class="container-fluid">
+                <table >
+                    <tbody>
+                    <tr >
+                        <td>员工编号</td>
+                        <td>姓名</td>
+                        <td>性别</td>
+                        <td>电话</td>
+                        <td>地址</td>
+                        <td>邮箱</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>杯子</td>
+                        <td>女</td>
+                        <td>12345678901</td>
+                        <td>子午大道东边一百米</td>
+                        <td>12345678@qq.com</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="loginManage" style="display: none;">
+            <div class="container-fluid">
+                <table >
+                    <tbody>
+                    <tr>
+                        <td>用户编号</td>
+                        <td>用户名</td>
+                        <td>用户密码</td>
+                        <td>权限</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>可爱的小公主</td>
+                        <td>123456</td>
+                        <td>普通用户</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!--<a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Toggle Menu</a>-->
+            </div>
+        </div>
+
+        <div id="site" style="display: none;">
+            <div class="container-fluid">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>座位号</td>
+                        <td>影厅号</td>
+                        <td>所在排</td>
+                        <td>所在列</td>
+                        <td>座位状态</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>20</td>
+                        <td>20</td>
+                        <td>可用</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="hall">
+            <div class="container-fluid">
+                <table>
+                    <tbody>
+                    <tr>
+                        <td>影厅编号</td>
+                        <td>影厅名</td>
+                        <td>影厅座位行数</td>
+                        <td>影厅座位列数</td>
+                        <td>影厅描述</td>
+                        <td>影厅状态</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>MAX激光厅</td>
+                        <td>20</td>
+                        <td>30</td>
+                        <td>噶四大给你介绍给你分手费劲地方 发到你非得你给的弓弩哪个哪个好难闻瑞虎高度上公布那个人合格</td>
+                        <td>可用</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- /#page-content-wrapper -->
+
+    </div>
+
+    <script>
+        function jumptoemp() {
+            var emp = document.getElementById("emp")
+            var loginManafe = document.getElementById("loginManage")
+            var site = document.getElementById("site");
+            var hall = document.getElementById("hall");
+            emp.style.display = "block";
+            loginManafe.style.display = "none";
+            site.style.display="none";
+            hall.style.display="none";
+        }
+
+        function jumpToLogin() {
+            var emp = document.getElementById("emp")
+            var loginManafe = document.getElementById("loginManage")
+            var site = document.getElementById("site");
+            var hall = document.getElementById("hall");
+
+            emp.style.display = "none";
+            loginManafe.style.display = "block";
+            site.style.display="none";
+            hall.style.display="none";
+
+
+        }
+
+        function jumpToSite() {
+            var emp = document.getElementById("emp")
+            var loginManafe = document.getElementById("loginManage")
+            var site = document.getElementById("site");
+            var hall = document.getElementById("hall");
+
+            emp.style.display = "none";
+            loginManafe.style.display = "none";
+            site.style.display="block";
+            hall.style.display="none";
+
+        }
+        function jumpToHall() {
+            var emp = document.getElementById("emp")
+            var loginManafe = document.getElementById("loginManage")
+            var site = document.getElementById("site");
+            var hall = document.getElementById("hall");
+
+            emp.style.display = "none";
+            loginManafe.style.display = "none";
+            site.style.display="none";
+            hall.style.display="block";
+
+        }
+    </script>
+
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
