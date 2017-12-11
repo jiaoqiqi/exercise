@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jueegeChecked</title>
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        $(document).ready( ()=> {
+            var $cr = $("#cr");  //jQuery对象
+            var cr = $cr[0];    //DOM对象
+            $("#cr").click( ()=>{
+                // if(cr.checked){   //DOM方式判断
+                    if($("#cr").is(":checked")){    //jQuery方式判断
+                    alert("欢迎使用");
+                }
+            })
+        })
+    </script>
+
+</head>
+<body>
+    <p>用户注册基本信息</p>
+    <input type="text" value="用户名">
+    <input type="checkbox" id="cr"><label for="cr">我已经阅读了上面制度</label>
+</body>
+</html>
