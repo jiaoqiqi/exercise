@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready( ()=>{
+            alert($(".test :hidden").length);  //带空格的选择器   class为test的隐藏元素
+            alert($(".test:hidden").length);    //不带空格的选择器  隐藏的class为test元素
+        })
+    </script>
+</head>
+<body>
+<div class="test">
+    <div style="display: none;">aa</div>
+    <div style="display: none;">bb</div>
+    <div style="display: none;">cc</div>
+    <div class="test" style="display: none;">dd</div>
+</div>
+<div class="test" style="display: none;">ee</div>
+<div class="test" style="display: none;">ff</div>
+
+
+
+</body>
+</html>
