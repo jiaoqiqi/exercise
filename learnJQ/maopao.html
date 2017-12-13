@@ -7,16 +7,19 @@
 
     <script>
         $(document).ready( ()=>{
-            $('span').click( ()=>{
+            $('span').click( (event)=>{
                 $('#msg').html($('#msg').html() + "<p>内层span元素被点击</p>")
+                event.stopPropagation();
             })
 
-            $('#content').click( ()=>{
+            $('#content').click( (event)=>{
                 $('#msg').html($('#msg').html() + "<p>外层span元素被点击</p>")
+                event.stopPropagation();
             })
 
-            $('body').click( ()=>{
+            $('body').click( (event)=>{
                 $('#msg').html($('#msg').html() + "<p>body元素被点击</p>")
+                event.stopPropagation()
             })
         })
     </script>
