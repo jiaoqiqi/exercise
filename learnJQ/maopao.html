@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>时间冒泡</title>
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready( ()=>{
+            $('span').click( ()=>{
+                $('#msg').html($('#msg').html() + "<p>内层span元素被点击</p>")
+            })
+
+            $('#content').click( ()=>{
+                $('#msg').html($('#msg').html() + "<p>外层span元素被点击</p>")
+            })
+
+            $('body').click( ()=>{
+                $('#msg').html($('#msg').html() + "<p>body元素被点击</p>")
+            })
+        })
+    </script>
+
+</head>
+<body>
+<div id="content">
+    外层div元素
+    <span>内层span元素</span>
+    外层div元素
+
+</div>
+<div id="msg"></div>
+
+</body>
+</html>
