@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        $(document).ready( ()=>{
+            $("#content").click( ()=>{
+
+                $("#content").html($("#content").html() + "<p>打开页面就能看到啦</p>")
+            })
+
+            $("#content").trigger("click");
+        })
+    </script>
+
+</head>
+<body>
+<div id="content">123
+
+
+</div>
+
+</body>
+</html>

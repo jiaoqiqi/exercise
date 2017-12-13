@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aeda61ac-e9dd-4914-8a2e-f7de2acd794c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/learnJQ/maopao.html" afterPath="$PROJECT_DIR$/learnJQ/maopao.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,16 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4768">
-              <caret line="149" column="30" lean-forward="false" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="hidepart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnJQ/hidepart.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,11 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="maopao.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="maopao.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnJQ/maopao.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="320">
+              <caret line="10" column="71" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoclick.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learnJQ/autoclick.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -141,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/navigater/css/menu_bubble.css" />
         <option value="$PROJECT_DIR$/navigater/css/demo.css" />
         <option value="$PROJECT_DIR$/ttms/js/siteManage.html" />
         <option value="$PROJECT_DIR$/hidden.html" />
@@ -192,6 +190,7 @@
         <option value="$PROJECT_DIR$/tryHover/hover.html" />
         <option value="$PROJECT_DIR$/learnJQ/spaceChange.html" />
         <option value="$PROJECT_DIR$/learnJQ/maopao.html" />
+        <option value="$PROJECT_DIR$/learnJQ/autoclick.html" />
       </list>
     </option>
   </component>
@@ -457,12 +456,12 @@
       <workItem from="1512898535704" duration="1198000" />
       <workItem from="1512984074790" duration="7694000" />
       <workItem from="1513063909331" duration="3077000" />
-      <workItem from="1513155592438" duration="1929000" />
+      <workItem from="1513155592438" duration="3648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149952000" />
+    <option name="totallyTimeSpent" value="151671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="-6" width="1822" height="1086" extended-state="6" />
@@ -500,13 +499,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backPicture/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ttms/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="776">
@@ -815,8 +807,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learnJQ/maopao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="320">
+          <caret line="10" column="71" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learnJQ/autoclick.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
