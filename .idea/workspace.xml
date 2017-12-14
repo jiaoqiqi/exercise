@@ -16,16 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="hidepart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnJQ/hidepart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="jQuery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnJQ/jQuery.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoclick.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="autoclick.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnJQ/autoclick.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="256">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twoSquare.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/canvas/twoSquare.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/navigater/css/demo.css" />
         <option value="$PROJECT_DIR$/ttms/js/siteManage.html" />
         <option value="$PROJECT_DIR$/hidden.html" />
         <option value="$PROJECT_DIR$/ttms/bubble.html" />
@@ -191,6 +190,7 @@
         <option value="$PROJECT_DIR$/learnJQ/spaceChange.html" />
         <option value="$PROJECT_DIR$/learnJQ/maopao.html" />
         <option value="$PROJECT_DIR$/learnJQ/autoclick.html" />
+        <option value="$PROJECT_DIR$/canvas/twoSquare.html" />
       </list>
     </option>
   </component>
@@ -243,7 +243,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,22 +253,13 @@
             <path>
               <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="learnJQ" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="tryHover" type="462c0819:PsiDirectoryNode" />
+              <item name="canvas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,19 +273,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/table" />
-      <recent name="$PROJECT_DIR$/movie" />
-      <recent name="$PROJECT_DIR$/ttms" />
-      <recent name="$PROJECT_DIR$/nodejs/express" />
-      <recent name="$PROJECT_DIR$/nodejs/express-get" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/lunbotu/images" />
       <recent name="$PROJECT_DIR$/ttms/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/ttms/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/table" />
+      <recent name="$PROJECT_DIR$/movie" />
+      <recent name="$PROJECT_DIR$/ttms" />
+      <recent name="$PROJECT_DIR$/nodejs/express" />
+      <recent name="$PROJECT_DIR$/nodejs/express-get" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -456,12 +446,13 @@
       <workItem from="1512898535704" duration="1198000" />
       <workItem from="1512984074790" duration="7694000" />
       <workItem from="1513063909331" duration="3077000" />
-      <workItem from="1513155592438" duration="3648000" />
+      <workItem from="1513155592438" duration="4529000" />
+      <workItem from="1513237658402" duration="1006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151671000" />
+    <option name="totallyTimeSpent" value="153558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="-6" width="1822" height="1086" extended-state="6" />
@@ -474,7 +465,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32713348" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713348" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -499,13 +490,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ttms/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codeRetreat/src/number-off.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -715,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4768">
           <caret line="149" column="30" lean-forward="false" selection-start-line="149" selection-start-column="30" selection-end-line="149" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,6 +772,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/learnJQ/maopao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="71" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/learnJQ/spaceChange.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -805,18 +795,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnJQ/maopao.html">
+    <entry file="file://$PROJECT_DIR$/learnJQ/autoclick.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" column="71" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="256">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learnJQ/autoclick.html">
+    <entry file="file://$PROJECT_DIR$/canvas/twoSquare.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="576">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
