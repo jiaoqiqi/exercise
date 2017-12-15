@@ -36,16 +36,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learnJQ/post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="postdemo.asp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnJQ/postdemo.asp">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,18 +96,28 @@
       <file leaf-file-name="autoclick.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learnJQ/autoclick.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="384">
               <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twoSquare.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="twoSquare.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/canvas/twoSquare.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="800">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trangle.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/canvas/trangle.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -140,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ttms/js/siteManage.html" />
         <option value="$PROJECT_DIR$/hidden.html" />
         <option value="$PROJECT_DIR$/ttms/bubble.html" />
         <option value="$PROJECT_DIR$/ttms/css/demo.css" />
@@ -191,6 +190,7 @@
         <option value="$PROJECT_DIR$/learnJQ/maopao.html" />
         <option value="$PROJECT_DIR$/learnJQ/autoclick.html" />
         <option value="$PROJECT_DIR$/canvas/twoSquare.html" />
+        <option value="$PROJECT_DIR$/canvas/trangle.html" />
       </list>
     </option>
   </component>
@@ -242,6 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -259,7 +260,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,15 +447,16 @@
       <workItem from="1512984074790" duration="7694000" />
       <workItem from="1513063909331" duration="3077000" />
       <workItem from="1513155592438" duration="4529000" />
-      <workItem from="1513237658402" duration="1006000" />
+      <workItem from="1513237658402" duration="1944000" />
+      <workItem from="1513333451450" duration="201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153558000" />
+    <option name="totallyTimeSpent" value="154697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="-6" width="1822" height="1086" extended-state="6" />
+    <frame x="98" y="-6" width="1824" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16959386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -490,13 +491,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codeRetreat/src/number-off.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codeRetreat/src/number-off-vim.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -720,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learnJQ/autoclick.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="384">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
@@ -805,8 +797,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas/twoSquare.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="800">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas/trangle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding />
         </state>
       </provider>
