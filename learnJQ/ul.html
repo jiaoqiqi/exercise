@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#log li").click(function() {
+                if($("#log li").eq($(this).index()).text() == "123"){
+                    $(this).css("color", 'red')
+                }
+            })
+        })
+
+    </script>
+
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <ul id="log">
+        <li>123</li>
+        <li>acvff</li>
+        <li>bdfsbd</li>
+        <li>gdrger</li>
+        <li>gergw</li>
+    </ul>
+
+</body>
+</html>
