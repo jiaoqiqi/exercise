@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浏览器内对页面通信
+    </title>
+
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(function(){
+            $("#btn").click(function(){
+                var name=$("#name").val();
+                localStorage.setItem("name", name);
+            });
+        });
+    </script>
+
+</head>
+<body>
+<input id="name">
+<input type="button" id="btn" value="提交">
+
+
+</body>
+</html>
