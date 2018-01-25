@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        document.onclick = function(e){
+            var r = 50;  //圆的半径
+            var x1 = 100,  y1 = 100;
+            var x2 = e.clientX,
+                y2 = e.clientY;
+            var len=Math.abs(Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2)));
+            if(len<=50){
+                console.log("Inner");
+            }else{
+                console.log("Outer");
+            }
+        }
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>
