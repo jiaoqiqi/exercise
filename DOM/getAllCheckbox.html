@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>checkbox</title>
+    <script language="JavaScript">
+        function checkbox(){
+            var domList = document.getElementsByTagName('input');
+            console.log(domList)
+            var checkboxList = [];
+            var length = domList.length;
+            while(length--){
+                if(domList[length].type === 'checkbox'){
+                    checkboxList.push(domList[length]);
+                }
+            }
+            console.log(checkboxList);
+        }
+    </script>
+</head>
+<body>
+<input type="checkbox" />
+<input type="checkbox" />
+<input type="radio" />
+<input type="checkbox" />
+<input type="checkbox" />
+<button onClick='checkbox()' type='submit' value="submit"/>哎呀呀
+</body>
+</html>
