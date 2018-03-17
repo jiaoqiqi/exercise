@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aeda61ac-e9dd-4914-8a2e-f7de2acd794c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="aeda61ac-e9dd-4914-8a2e-f7de2acd794c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fisherYatesShuffle.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fisherYatesShuffle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/洗牌/fisherYatesShuffle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Promise.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Promise/Promise.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -78,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/movie/hallManage.html" />
         <option value="$PROJECT_DIR$/movie/siteManage.html" />
         <option value="$PROJECT_DIR$/movie/loginManage.html" />
         <option value="$PROJECT_DIR$/movie/employee.html" />
@@ -129,6 +136,7 @@
         <option value="$PROJECT_DIR$/sideshow/index.js" />
         <option value="$PROJECT_DIR$/centerDiv/水平垂直居中2.html" />
         <option value="$PROJECT_DIR$/洗牌/fisherYatesShuffle.js" />
+        <option value="$PROJECT_DIR$/Promise/Promise.js" />
       </list>
     </option>
   </component>
@@ -403,12 +411,12 @@
       <workItem from="1520423259521" duration="2395000" />
       <workItem from="1520476904005" duration="8007000" />
       <workItem from="1521087481420" duration="3363000" />
-      <workItem from="1521266966776" duration="487000" />
+      <workItem from="1521266966776" duration="2948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206978000" />
+    <option name="totallyTimeSpent" value="209439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="309" y="16" width="1824" height="1080" extended-state="6" />
@@ -465,13 +473,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/微云网页版_files/cdr_proxy(1).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hover/hover.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -790,8 +791,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/洗牌/fisherYatesShuffle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        <state relative-caret-position="270">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Promise/Promise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="16" />
           <folding />
         </state>
       </provider>
