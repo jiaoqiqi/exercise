@@ -18,7 +18,7 @@ function quickSort(arr, left, right) {
 }
 
 var arr = [1,5,3,6,9,8,23];
-console.log(quickSort(arr, 0, arr.length - 1));
+// console.log(quickSort(arr, 0, arr.length - 1));
 
 
 function quick(arr) {
@@ -37,7 +37,7 @@ function quick(arr) {
         }
     }
     // 对分出来的数组进行递归运算,将左边右边中间的数三部分拼接
-    return quickSort(left).concat([pivot], quickSort(right));
+    return quick(left).concat([pivot], quick(right));
 };
 
 console.log(quick(arr));
