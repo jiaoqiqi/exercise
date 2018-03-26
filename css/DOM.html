@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function getWidth() {
+            console.log(document.getElementById("baba").style.width);
+            // console.log(document.getElementById("son").style.width);
+            console.log(document.getElementById("baba").children[0].clientWidth);
+        }
+    </script>
+</head>
+<body onload="getWidth()">
+<div style="width: 100px;height: 100px;background-color: #0B6EA4" id="baba">
+    <div style="width: 50%;height: 50%;background-color: #00FF00" id = "son"></div>
+</div>
+</body>
+</html>

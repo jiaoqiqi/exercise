@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aeda61ac-e9dd-4914-8a2e-f7de2acd794c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JSsort/quickSort.js" afterPath="$PROJECT_DIR$/JSsort/quickSort.js" />
+      <change beforePath="$PROJECT_DIR$/洗牌/fisherYatesShuffle.js" afterPath="$PROJECT_DIR$/洗牌/fisherYatesShuffle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,52 +17,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sideshow/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sideshow/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sideshow/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fisherYatesShuffle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/洗牌/fisherYatesShuffle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="324">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Promise.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Promise/Promise.js">
+      <file leaf-file-name="DOM.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/DOM.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="513">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,27 +44,17 @@
         <entry file="file://$PROJECT_DIR$/JSsort/bubble.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="864">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quickSort.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="quickSort.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JSsort/quickSort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSsort/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="945">
+              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -103,8 +66,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -119,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/movie/siteManage.html" />
         <option value="$PROJECT_DIR$/movie/loginManage.html" />
         <option value="$PROJECT_DIR$/movie/employee.html" />
         <option value="$PROJECT_DIR$/movie/.travis.yml" />
@@ -167,9 +129,10 @@
         <option value="$PROJECT_DIR$/sideshow/index.html" />
         <option value="$PROJECT_DIR$/sideshow/index.js" />
         <option value="$PROJECT_DIR$/centerDiv/水平垂直居中2.html" />
-        <option value="$PROJECT_DIR$/洗牌/fisherYatesShuffle.js" />
         <option value="$PROJECT_DIR$/Promise/Promise.js" />
         <option value="$PROJECT_DIR$/JSsort/quickSort.js" />
+        <option value="$PROJECT_DIR$/洗牌/fisherYatesShuffle.js" />
+        <option value="$PROJECT_DIR$/css/DOM.html" />
       </list>
     </option>
   </component>
@@ -222,7 +185,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,18 +195,24 @@
             <path>
               <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="JSsort" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="洗牌" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ttms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -279,11 +247,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.bubble.js">
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/exercise/nodejs/express/index.html" />
+  <component name="RunManager" selected="Node.js.fisherYatesShuffle.js">
     <configuration name="nodetype.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/exercise/DOM/nodetype.html" />
     <configuration name="table.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/exercise/table/table.html" />
     <configuration name="bubble.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="bubble.js" working-dir="$PROJECT_DIR$/JSsort" />
+    <configuration name="fisherYatesShuffle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="fisherYatesShuffle.js" working-dir="$PROJECT_DIR$/洗牌" />
     <configuration name="learn.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="learn.js" working-dir="$PROJECT_DIR$" />
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -351,19 +319,19 @@
       <envs />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.learn.js" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.nodetype.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.table.html" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.bubble.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.learn.js" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.nodetype.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.table.html" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.bubble.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.fisherYatesShuffle.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.bubble.js" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.table.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.nodetype.html" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.learn.js" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.fisherYatesShuffle.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.bubble.js" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.table.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.nodetype.html" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.learn.js" />
       </list>
     </recent_temporary>
   </component>
@@ -451,18 +419,22 @@
       <workItem from="1521087481420" duration="3363000" />
       <workItem from="1521266966776" duration="2948000" />
       <workItem from="1521294904227" duration="355000" />
-      <workItem from="1521333337520" duration="1216000" />
+      <workItem from="1521333337520" duration="3132000" />
+      <workItem from="1521684743788" duration="3091000" />
+      <workItem from="1521792009044" duration="1216000" />
+      <workItem from="1522047912310" duration="599000" />
+      <workItem from="1522072423778" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211010000" />
+    <option name="totallyTimeSpent" value="218427000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="309" y="16" width="1824" height="1080" extended-state="6" />
+    <frame x="98" y="-6" width="1822" height="1086" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16959386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18715698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -513,13 +485,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hover/hover.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4768">
@@ -749,14 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sideshow/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/centerDiv/水平垂直居中2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -792,43 +749,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sideshow/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sideshow/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/洗牌/fisherYatesShuffle.js">
+    <entry file="file://$PROJECT_DIR$/sideshow/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="27">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sideshow/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Promise/Promise.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSsort/bubble.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -836,15 +781,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSsort/bubble.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/洗牌/fisherYatesShuffle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSsort/quickSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="945">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/DOM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

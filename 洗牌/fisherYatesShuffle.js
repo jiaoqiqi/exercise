@@ -1,6 +1,7 @@
+//打乱数组
 function shuffle(array) {
-    var _array = array.concat();
 
+    var _array = array.concat();
     for (var i = _array.length; i--; ) {
         var j = ~~(Math.random() * (i + 1));
         [_array[i],_array[j]] = [_array[j],_array[i]]
