@@ -24,3 +24,7 @@ getURL(URL).then(function onFulfilled(value) {
 }).catch(function onRejected(error) {
     console.error(error);
 });
+
+Promise.resolve(42).then(function (value) {
+    console.log(value);
+})
