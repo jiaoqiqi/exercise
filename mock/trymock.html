@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试 Mock 拦截请求的功能</title>
+</head>
+<body>
+
+<!--一个按钮和一个 DIV，按钮用于发送 ajax 请求，DIV 用于接收数据接口返回的数据内容-->
+<button type="button" onclick="mock()">点击我发送 Ajax 请求</button>
+<!--<div id="container" style="width: 350px;height: 500px;background: yellowgreen;overflow-y: auto"></div>-->
+<div id="container" ></div>
+<!--引入 mockjs 库，用于造假数据和伪造后台数据接口-->
+<script src="../node_modules/mockjs/dist/mock-min.js"></script>
+<!--引入 jquery 库，用于发送 ajax 请求-->
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+
+<script>
+    // 造假数据 + 造虚拟数据接口
+    // Mock.mock(rurl, template)
+    Mock.mock(/\.json/, {
+        'list|1-10': [{   //取1-10个
+            'id|+1': 1,   //id每次自增1
+            'email': '@EMAIL'  //随机生成email
+        }]
+    })
+
+    // 发送 ajax 请求，并将“后台”返回的数据打印在 DIV 上
+    function mock () {
+        $.ajax({
+            url: 'hello.json',
+            dataType: 'json'
+        }).done(function(data, status, jqXHR){
+            $('#container').empty();
+            $('<pre>').text(JSON.stringify(data, null, 4))
+                .appendTo('#container')
+        })
+    }
+
+</script>
+</body>
+</html>
