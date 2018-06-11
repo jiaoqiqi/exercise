@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeda61ac-e9dd-4914-8a2e-f7de2acd794c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/uploadPicture/form.html" afterPath="$PROJECT_DIR$/uploadPicture/form.html" />
-      <change beforePath="$PROJECT_DIR$/洗牌/fisherYatesShuffle.js" afterPath="$PROJECT_DIR$/洗牌/fisherYatesShuffle.js" />
+      <change beforePath="$PROJECT_DIR$/mock/trymock.html" afterPath="$PROJECT_DIR$/mock/trymock.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +36,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trymock.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="trymock.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mock/trymock.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+            <state relative-caret-position="416">
+              <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dva-mock.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mock/dva-mock.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="43" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".roadhogrc.mock.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mock/.roadhogrc.mock.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="864">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,8 +114,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -110,8 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/table/table.html" />
-        <option value="$USER_HOME$/Desktop/2017纳新/web/HTML ╬─▒╛╕ё╩╜╗п╩╡└¤.html" />
         <option value="$PROJECT_DIR$/learnJQ.js" />
         <option value="$PROJECT_DIR$/learnJQ/selectBarcode.html" />
         <option value="$PROJECT_DIR$/learnJQ/hidepart.html" />
@@ -161,6 +179,8 @@
         <option value="$PROJECT_DIR$/123.html" />
         <option value="$PROJECT_DIR$/uploadPicture/form.html" />
         <option value="$PROJECT_DIR$/mock/trymock.html" />
+        <option value="$PROJECT_DIR$/mock/dva-mock.js" />
+        <option value="$PROJECT_DIR$/mock/.roadhogrc.mock.js" />
       </list>
     </option>
   </component>
@@ -469,12 +489,12 @@
       <workItem from="1527996713106" duration="489000" />
       <workItem from="1528073414118" duration="375000" />
       <workItem from="1528180794012" duration="958000" />
-      <workItem from="1528700763703" duration="1509000" />
+      <workItem from="1528700763703" duration="3091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244422000" />
+    <option name="totallyTimeSpent" value="246004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="309" y="16" width="1920" height="1048" extended-state="6" />
@@ -531,20 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/canvas/bezier.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvas/smile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/test.scss" />
     <entry file="file://$PROJECT_DIR$/learnJQ/postdemo.asp" />
     <entry file="file://$PROJECT_DIR$/canvas/fillStyle.html">
@@ -853,8 +859,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mock/trymock.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="416">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/dva-mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mock/.roadhogrc.mock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
