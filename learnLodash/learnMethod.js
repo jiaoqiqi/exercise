@@ -1,4 +1,4 @@
-const _ = require("lodash")
+const _ = require("lodash");
 
 const arr = [1,2,3,4,5,6,7,8];   //分割数组
 console.log(_.chunk(arr,3));    //[ [ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8 ] ]
@@ -31,4 +31,39 @@ _.drop([1, 2, 3], 0);
 _.dropRight([1,2,3])
 //[1,2]
 
+_.dropRightWhile()
+_.dropWhile()
 
+
+_.fill([4, 6, 8, 10], '*', 1, 3);
+// => [4, '*', '*', 10]
+
+
+_.flatten([[1, [2, [3, [4]], 5]]]);
+// => [1, 2, [3, [4]], 5]
+
+
+_.flattenDeep([[1, [2, [3, [4]], 5]]]);
+// => [1, 2, 3, 4, 5]
+
+//flatten设置层次
+var array = [1, [2, [3, [4]], 5]];
+_.flattenDepth(array, 1);
+// => [1, 2, [3, [4]], 5]
+_.flattenDepth(array, 2);
+// => [1, 2, 3, [4], 5]
+
+console.log(_.intersection([1,2,3],[2,3,4]));   //找出两个数组重复的元素
+_.intersectionBy([2.1, 1.2], [2.3, 3.4], Math.floor);
+// => [2.1]
+_.intersectionWith();
+
+_.join(['a', 'b', 'c'], '~');
+// => 'a~b~c'
+
+
+var array = ['a', 'b', 'c', 'a', 'b', 'c'];
+
+_.pull(array, 'a', 'c');
+console.log(array);
+// => ['b', 'b']
