@@ -16,27 +16,31 @@
         // }
         function sendMsg() {
             const sendMsg = document.getElementById("send").value;
-            document.getElementById("send").value = "";
-            // $('#page').append(`<p id="item">${sendMsg}</p>`);
-            $('#page').append(`<div class="user-group">
+            if (sendMsg.length > 0){
+                document.getElementById("send").value = "";
+                // $('#page').append(`<p id="item">${sendMsg}</p>`);
+                $('#page').append(`<div class="user-group">
             <div class="user-msg">
                 <span class="user-reply">${sendMsg}</span>
                 <i class="triangle-user"></i>
             </div>
             <img class="user-img" src="111.png"/>
         </div>`)
+            }
         }
 
         function replyMsg() {
             const receiveMsg = document.getElementById("receive").value;
-            document.getElementById("receive").value = "";
-            $('#page').append(`<div class="admin-group">
+            if (receiveMsg.length > 0){
+                document.getElementById("receive").value = "";
+                $('#page').append(`<div class="admin-group">
             <img class="admin-img" src="111.png"/>
             <div class="admin-msg">
                 <i class="triangle-admin"></i>
                 <span class="admin-reply">${receiveMsg}</span>
             </div>
         </div>`)
+            }
         }
     </script>
 
@@ -44,11 +48,11 @@
 <body>
 <div>
     <div>
-        <input type="text" id="send">
+        <label for="send"></label><input type="text" id="send">
         <button onclick=sendMsg()>发送</button>
     </div>
     <div>
-        <input type="text" id="receive">
+        <label for="receive"></label><input type="text" id="receive">
         <button onclick=replyMsg()>回复</button>
     </div>
 </div>
