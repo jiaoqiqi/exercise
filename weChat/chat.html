@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chat</title>
+    <link rel="stylesheet" href="sendStyle.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+
+    <script>
+        // function sendMessage() {
+        //     const message = document.getElementById("in").value;
+        //     console.log(message);
+        //     document.getElementById("in").value = "";
+        //     $('#test').append(`<p id="item">${message}</p>`);
+        // }
+        function sendMsg() {
+            const sendMsg = document.getElementById("send").value;
+            document.getElementById("send").value = "";
+            // $('#page').append(`<p id="item">${sendMsg}</p>`);
+            $('#page').append(`<div class="user-group">
+            <div class="user-msg">
+                <span class="user-reply">${sendMsg}</span>
+                <i class="triangle-user"></i>
+            </div>
+            <img class="user-img" src="111.png"/>
+        </div>`)
+        }
+
+        function replyMsg() {
+            const receiveMsg = document.getElementById("receive").value;
+            document.getElementById("receive").value = "";
+            $('#page').append(`<div class="admin-group">
+            <img class="admin-img" src="111.png"/>
+            <div class="admin-msg">
+                <i class="triangle-admin"></i>
+                <span class="admin-reply">${receiveMsg}</span>
+            </div>
+        </div>`)
+        }
+    </script>
+
+</head>
+<body>
+<div>
+    <div>
+        <input type="text" id="send">
+        <button onclick=sendMsg()>发送</button>
+    </div>
+    <div>
+        <input type="text" id="receive">
+        <button onclick=replyMsg()>回复</button>
+    </div>
+</div>
+<div class="mobile-page">
+
+    <div class="mobile-page" id="page">
+        <!--发送-->
+        <div class="user-group">
+            <div class="user-msg">
+                <span class="user-reply">个人个人</span>
+                <i class="triangle-user"></i>
+            </div>
+            <img class="user-img" src="111.png"/>
+        </div>
+
+        <!--回复-->
+        <div class="admin-group">
+            <img class="admin-img" src="111.png"/>
+            <div class="admin-msg">
+                <i class="triangle-admin"></i>
+                <span class="admin-reply">那就快让你赶紧噢让你感觉染过而过诺尔发内容福伯福建省如果热供热个人
+                    和二哥热供热供热个人个人人个人各个人工二个如果和交换机其他热用日语美好过热供热个人各人个人个人个人开关键时刻</span>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+</body>
+</html>
